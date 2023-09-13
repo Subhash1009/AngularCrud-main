@@ -1,0 +1,60 @@
+<nav class="navbar navbar-light bg-primary">
+  <div class="container-fluid">
+     <marquee> <h4 style="color:rgb(221, 210, 231); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Payment</h4></marquee>
+      <div class="d-flex">
+      
+      </div>
+  </div>
+
+</nav>
+<div class="payment-form">
+   
+    <form #data="ngForm" (ngSubmit)="submitPayment(data)">
+          <!-- Name on Card -->
+      <div class="form-group">
+        <label for="name">Name of the Customer :    </label><br>
+        <input type="text" id="name" name="name" [(ngModel)]="payment.name" placeholder="Full Name(Required)*">
+      </div><br>
+      <!-- Card Number -->
+      <div class="form-group">
+        <label for="phoneNumber">Phone : </label><br>
+        <input type="number" id="phoneNumber" name="phoneNumber" [(ngModel)]="payment.cardNumber"
+        required min="6" minlength="10" maxlength="10" placeholder="Phone Number(Required)*">
+       
+        <br>
+       </div><br>
+
+    
+      <!-- Expiration Date -->
+      <div class="form-group">
+        <label for="state">State :    </label><br>
+        <input type="text" id="state" name="state" [(ngModel)]="payment.state" placeholder="State(Required)*" required>&nbsp &nbsp &nbsp;
+          <label for="city">City :    </label>
+        <input type="text" id="city" name="city" [(ngModel)]="payment.city" placeholder="City(Required)*"style="margin-right: 35%;" required>
+    
+      </div><br>
+      
+
+     <!-- <div class="form-group">
+      <label for="city">City :    </label><br>
+      <input type="text" id="city" name="city" [(ngModel)]="payment.city" placeholder="City(Required)*" required>
+    </div><br> -->
+
+    <div class="form-group">
+      <label for="city">Pincode :    </label><br>
+      <input type="number" id="pincode" name="pincode" [(ngModel)]="payment.city" placeholder="City(Required)*" required>
+    </div><br>
+
+    <div class="form-group">
+      <label for="address">Address :   </label><br>
+      <textarea id="address" name="address" [(ngModel)]="payment.expirationDate" placeholder="House No.,Building Name(Required)*" required></textarea>
+    </div><br>
+  
+    <div>
+      <input type="radio" style="size: 35%;"  name="color" value="value" [(ngModel)]="payment.cardNumber">
+      <button  mat-raised-button color="primary" type="submit">Cash on Delivery</button>   
+   </div><br>
+  
+       
+    </form>
+  </div>

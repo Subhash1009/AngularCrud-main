@@ -1,0 +1,350 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "productimage": "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/k/w/k/-original-imagg2abzhxjckxu.jpeg?q=70",
+      "productname": "OnePlus Nord CE2",
+      "productcategory": "Mobile",
+      "productprice": "₹30000",
+      "productdescription": "8 GB RAM | 128 GB ROM"
+    },
+    {
+      "id": 2,
+      "productimage": "https://rukminim2.flixcart.com/image/832/832/kkoc70w0/computer/n/v/b/probook-430-g8-notebook-pc-business-laptop-hp-original-imafzyry26deagdp.jpeg?q=70",
+      "productname": "HP Pro Book",
+      "productcategory": "Laptop",
+      "productprice": "$900000",
+      "productdescription": "HP 430 G8 Core i5 11th Gen - (8 GB/512 GB SSD/Windows 10 Pro) ProBook 430 G8 Business Laptop  (13.3 inch, Pike Silver)"
+    },
+    {
+      "id": 3,
+      "productimage": "https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/s/t/m/-original-imaghxgnjdgyghfw.jpeg?q=70",
+      "productname": "Apple AirPods",
+      "productcategory": "Electronics",
+      "productprice": "$23000",
+      "productdescription": " AirPods Pro feature up to 2x "
+    },
+    {
+      "id": 4,
+      "productimage": "https://rukminim2.flixcart.com/image/832/832/l5ld8y80/headphone/e/8/o/ga03201-google-original-imagg8d7bhxjduze.jpeg?q=70",
+      "productname": "Google Pixel Buds",
+      "productcategory": "Active Noise Cancellation Wireless Bluetooth Headset",
+      "productprice": "$18990",
+      "productdescription": "Bluetooth version: 5"
+    }
+  ],
+  "signupUser": [
+    {
+      "name": "Subhash",
+      "mobile": 7569128068,
+      "email": "subhash@gmail.com",
+      "password": "123",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "name": "swaroop",
+      "mobile": 9876543210,
+      "email": "swaroop@gmail.com",
+      "password": "123",
+      "role": "admin",
+      "id": 2
+    },
+    {
+      "name": "Hemika",
+      "mobile": 879994026,
+      "email": "hem@gmail.com",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "name": "Mounika",
+      "mobile": 12345678,
+      "email": "mounikaputtamreddy@gmail.com",
+      "password": "mouni@32",
+      "id": 4
+    },
+    {
+      "name": "",
+      "mobile": "",
+      "email": "",
+      "password": "",
+      "id": 5
+    },
+    {
+      "name": "",
+      "mobile": "",
+      "email": "",
+      "password": "",
+      "id": 6
+    },
+    {
+      "name": "Mahanth",
+      "mobile": "12345667",
+      "email": "test@gmail.com",
+      "password": "123",
+      "id": 7
+    },
+    {
+      "name": "Mahanth",
+      "mobile": "12345667",
+      "email": "test@gmail.com",
+      "password": "123",
+      "id": 8
+    },
+    {
+      "name": "test",
+      "mobile": "123",
+      "email": "test@gmail.com",
+      "password": "123",
+      "id": 9
+    },
+    {
+      "name": "test",
+      "mobile": "123",
+      "email": "test@gmail.com",
+      "password": "123",
+      "id": 10
+    },
+    {
+      "name": "Barry",
+      "mobile": "7569128069",
+      "email": "barry@gmail.com",
+      "password": "123",
+      "id": 11
+    },
+    {
+      "name": "Barry",
+      "mobile": "7569128069",
+      "email": "barry@gmail.com",
+      "password": "123",
+      "id": 12
+    },
+    {
+      "name": "Hemika Atla",
+      "mobile": 9494109864,
+      "email": "hemsey@gmail.com",
+      "password": "Hemika",
+      "id": 13
+    },
+    {
+      "name": "Hemika Atla",
+      "mobile": 9494109864,
+      "email": "hemsey@gmail.com",
+      "password": "Hemika",
+      "id": 14
+    },
+    {
+      "name": "Lokesh",
+      "mobile": 9849058825,
+      "email": "lokesh@gmail",
+      "password": "123",
+      "id": 15
+    },
+    {
+      "name": "Lokesh",
+      "mobile": 9849058825,
+      "email": "lokesh@gmail",
+      "password": "123",
+      "id": 16
+    },
+    {
+      "name": "",
+      "mobile": "",
+      "email": "",
+      "password": "",
+      "id": 17
+    },
+    {
+      "name": "",
+      "mobile": "",
+      "email": "",
+      "password": "",
+      "id": 18
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "productimage": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/6/v/0/c51-mzb0dxkin-poco-original-imagzdpycgrcdc8z.jpeg?q=70",
+      "productname": "Poko",
+      "productcategory": "Mobiles",
+      "productprice": "$200000",
+      "productdescription": "Poko mobile  has high features"
+    },
+    {
+      "id": 2,
+      "productimage": "https://rukminim2.flixcart.com/image/612/612/xif0q/battery-charger/8/3/s/dpa-f6521-d-link-original-imagpqkvahu2whxd.jpeg?q=70",
+      "productname": "charger",
+      "productcategory": "electronics",
+      "productprice": "$700",
+      "productdescription": "good charger"
+    },
+    {
+      "id": 3,
+      "productimage": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/q/e/z/-original-imagpxgqesgrthks.jpeg?q=70",
+      "productname": "ASUS laptops",
+      "productcategory": "Electronics",
+      "productprice": "$900000",
+      "productdescription": "Super Good working Laptop"
+    },
+    {
+      "id": 4,
+      "productimage": "https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/s/t/m/-original-imaghxgnjdgyghfw.jpeg?q=70",
+      "productname": "Apple AirPods",
+      "productcategory": "Electronics",
+      "productprice": "$23000",
+      "productdescription": " AirPods Pro feature up to 2x "
+    },
+    {
+      "id": 5,
+      "productimage": "https://rukminim2.flixcart.com/image/832/832/l5ld8y80/headphone/e/8/o/ga03201-google-original-imagg8d7bhxjduze.jpeg?q=70",
+      "productname": "Google Pixel Buds",
+      "productcategory": "Active Noise Cancellation Wireless Bluetooth Headset",
+      "productprice": "$18990",
+      "productdescription": "Bluetooth version: 5"
+    }
+  ],
+  "usercart": [
+    {
+      "id": 2,
+      "productimage": "https://rukminim2.flixcart.com/image/832/832/kkoc70w0/computer/n/v/b/probook-430-g8-notebook-pc-business-laptop-hp-original-imafzyry26deagdp.jpeg?q=70",
+      "productname": "HP Pro Book",
+      "productcategory": "Laptop",
+      "productprice": "$900000",
+      "productdescription": "HP 430 G8 Core i5 11th Gen - (8 GB/512 GB SSD/Windows 10 Pro) ProBook 430 G8 Business Laptop  (13.3 inch, Pike Silver)"
+    }
+  ],
+  "orders": [
+    {
+      "id": 3,
+      "productimage": "https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/s/t/m/-original-imaghxgnjdgyghfw.jpeg?q=70",
+      "productname": "Apple AirPods",
+      "productcategory": "Electronics",
+      "productprice": "$23000",
+      "productdescription": " AirPods Pro feature up to 2x "
+    },
+    {
+      "id": 2,
+      "productimage": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/q/e/z/-original-imagpxgqesgrthks.jpeg?q=70",
+      "productname": "ASUS laptops",
+      "productcategory": "Electronics",
+      "productprice": "$900000",
+      "productdescription": "Super Good working Laptop"
+    },
+    {
+      "id": 4,
+      "productimage": "https://rukminim2.flixcart.com/image/832/832/l5ld8y80/headphone/e/8/o/ga03201-google-original-imagg8d7bhxjduze.jpeg?q=70",
+      "productname": "Google Pixel Buds",
+      "productcategory": "Active Noise Cancellation Wireless Bluetooth Headset",
+      "productprice": "$18990",
+      "productdescription": "Bluetooth version: 5"
+    },
+    {
+      "id": 1,
+      "productimage": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/6/v/0/c51-mzb0dxkin-poco-original-imagzdpycgrcdc8z.jpeg?q=70",
+      "productname": "Poko",
+      "productcategory": "Mobiles",
+      "productprice": "$200000",
+      "productdescription": "Poko mobile  has high features"
+    }
+  ],
+  "payments": [
+    {
+      "name": "Subhash",
+      "phoneNumber": "red",
+      "expirationDate": "Vizag",
+      "address": "Hno-4-4/4,Sf-2,Lawsons Bay Colony.",
+      "color": "red",
+      "id": 1
+    },
+    {
+      "name": "Subhash",
+      "phoneNumber": "red",
+      "state": "AP",
+      "city": 530017,
+      "pincode": 530017,
+      "address": "Lawsons bay Colony, Vizag.",
+      "color": "red",
+      "id": 2
+    },
+    {
+      "name": "",
+      "phoneNumber": "red",
+      "state": "",
+      "city": "",
+      "pincode": "",
+      "color": "red",
+      "id": 3
+    },
+    {
+      "name": "",
+      "state": "",
+      "city": "",
+      "pincode": "",
+      "id": 4
+    },
+    {
+      "name": "",
+      "state": "",
+      "city": "",
+      "pincode": "",
+      "id": 5
+    },
+    {
+      "name": "",
+      "state": "",
+      "city": "",
+      "pincode": "",
+      "id": 6
+    },
+    {
+      "name": "",
+      "phoneNumber": "value",
+      "state": "",
+      "city": "",
+      "pincode": "",
+      "color": "value",
+      "id": 7
+    },
+    {
+      "name": "",
+      "phoneNumber": "value",
+      "state": "",
+      "city": "",
+      "pincode": "",
+      "color": "value",
+      "id": 8
+    },
+    {
+      "name": "Hemika",
+      "phoneNumber": "value",
+      "state": "AP",
+      "city": 530017,
+      "pincode": 530017,
+      "address": "Lawsons bay Colony, Vizag.",
+      "color": "value",
+      "id": 9
+    },
+    {
+      "name": "Subhash",
+      "phoneNumber": "value",
+      "state": "AP",
+      "city": "530017",
+      "pincode": "530017",
+      "address": "Lawsons bay Colony, Vizag.",
+      "color": "value",
+      "id": 10
+    },
+    {
+      "name": "Subhash",
+      "phoneNumber": "value",
+      "state": "AP",
+      "city": "530017",
+      "pincode": "530017",
+      "address": "Lawsons bay Colony, Vizag.",
+      "color": "value",
+      "id": 11
+    }
+  ]
+}

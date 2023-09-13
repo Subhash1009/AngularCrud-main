@@ -1,0 +1,71 @@
+<div class="container">
+
+    <div class="row">
+
+    <div class="card">
+
+    <div class="text-center">
+
+    <h1><marquee>Register</marquee></h1>
+
+    <h6>Register Yourself!</h6>
+
+ </div>
+
+ 
+
+    <form>
+
+            <form [formGroup]="signupForm" (ngSubmit)="signup()">
+
+
+    <div class="mb-3">
+
+ 
+
+        <label for="exampleInputPassword1" class="form-label">Name</label>  
+
+        <input  formControlName= "name"type="text" formControlName="name" name="p" class="form-control" id="exampleInputPassword1" placeholder="Name(Required)*" required>
+
+         </div>
+
+         <div class="mb-3">
+
+ 
+
+            <label for="exampleInputPassword1" class="form-label">Mobile Number</label>  
+
+            <input formControlName= "mobile"type="number" formControlName="mobile" name="p" class="form-control" id="exampleInputPassword1" placeholder="Mobile Number(Required)*" min="6" minlength="10" maxlength="10"  required>
+
+             </div>
+
+    <div class="mb-3">
+
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+
+     <input formControlName= "email" type="email" formControlName="email" name="e" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email(Required)*">
+
+      <div id="emailHelp"  style="color: aquamarine;"  class="form-text">We'll never share your email with anyone else.</div> </div>
+
+      <div class="mb-3">
+
+ 
+
+    <label for="exampleInputPassword1" class="form-label">Password</label>  
+
+    <input formControlName= "password" type="password" formControlName="password" name="p" class="form-control" id="exampleInputPassword1" placeholder="Password(Required)*" required>
+
+     </div>
+
+     <button type="submit" class="btn btn-primary" (click)="signup()">Sign up</button>
+
+     </form>
+     <a style="color:red;margin-top: 10px;" routerLink="/login">Already User? Go to Login</a>
+  
+
+   
+
+     
+
+
+

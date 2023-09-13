@@ -1,0 +1,52 @@
+/* a{
+
+ 
+
+   
+
+ 
+
+    background-color: rgb(26, 190, 146);
+
+ 
+
+} */
+.card{
+
+    border: none;
+
+     width:500px;
+
+     padding:40px;
+
+    margin-top: 100px;
+
+    position: absolute;
+
+   top: 60%;left: 50%;
+
+   transform: translate(-50%,-50%);
+
+   color:#fff;
+
+    background: #000428;
+
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
+
+    background: linear-gradient(to right, #004e92, #000428)
+
+}
+
+ .card h1,
+
+  h6{
+
+    color:#fff;
+
+  }
+
+   label{
+
+    color: #fff;
+
+   }

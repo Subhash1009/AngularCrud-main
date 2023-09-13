@@ -1,0 +1,27 @@
+.card{
+
+    border: none;
+
+     width:500px;
+
+     padding:40px;
+
+    position: absolute;
+
+   top: 60%;left: 50%;
+
+   transform: translate(-50%,-50%);
+
+   color:#fff;
+
+    background: #000428;
+
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
+
+    background: linear-gradient(to right, #004e92, #000428)
+
+}
+
+ 
+
+ 

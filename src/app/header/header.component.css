@@ -1,0 +1,52 @@
+nav img{
+
+    width: 100px;;
+
+}
+
+nav {
+
+    background-color: skyblue;
+     background-repeat: no-repeat;
+     /* Control if the image should repeat */
+  background-size: cover; /* Control how the image covers the element */
+  background-position: center center; 
+  image-resolution: from-image;
+  width: auto;
+
+    padding: 10px;
+    
+}
+
+nav ul{
+
+    float:right;
+
+    list-style-type: none;
+
+}
+
+ul li
+
+{
+
+    display: inline-block;
+
+    padding: 10px;
+
+}
+
+li a{
+
+    color:#fff;
+
+    text-decoration: none;
+
+    cursor: pointer;
+
+}
+
+
+ 
+
+ 

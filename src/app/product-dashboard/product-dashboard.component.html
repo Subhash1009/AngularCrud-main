@@ -1,0 +1,89 @@
+<nav class="navbar navbar-light bg-primary">
+    <div class="container-fluid">
+        <h4 style="color: ghostwhite; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Product Dashboard</h4>
+        <div class="d-flex">
+        <button (click)="clickAddProdut()" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-success">Add Product</button><br><br><br>
+        <button style="background-color: red; color: white;" (click)="Logout()">Logout</button>
+       
+        </div>
+    </div>
+
+</nav>
+<table class="table mt-3">
+    <thead>
+        <tr>
+            <th scope="col">Product ID</th>
+            <th scope="col">Product Image</th>
+            <th scope="col">Product Name</th>
+            <th scope="col">Product Category</th>
+            <th scope="col">Product Price</th>
+            <th scope="col">Product Description</th>
+            <th scope="col">Action</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor ="let row of productData">
+            <td>{{row.id}}</td>
+            <td><img style="width: 156px;height:95px;" src="{{row.productimage}}"> </td>
+            <td>{{row.productname}}</td>
+            <td>{{row.productcategory}}</td>
+            <td>{{row.productprice}}</td>
+            <td>{{row.productdescription}}</td>
+            <td>
+                <button type="button" (click)="onEdit(row)" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-info">Edit</button> &nbsp; 
+                <button (click)="deleteProduct(row)" class="btn btn-danger">Delete</button>
+            </td>
+            
+        </tr>
+    </tbody>
+</table>
+
+
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Product Details</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form [formGroup] = "formValue">
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Product Image</label>
+                    <input type="text" formControlName="productimage" class="form-control" id="exampleInputPassword1">
+                  </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Product Name</label>
+                  <input type="text" formControlName="productname" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                 
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Product Category</label>
+                  <input type="text" formControlName="productcategory" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Product Price</label>
+                    <input type="text" formControlName="productprice" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Product Description</label>
+                    <input type="text" formControlName="productdescription" class="form-control" id="exampleInputPassword1">
+                </div>
+                
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" id="cancel" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" *ngIf="showAdd" (click)="postProjectDetails()" class="btn btn-primary">Add</button>
+          <button type="button" *ngIf="showUpdate" (click)="updateProjectDetails()" class="btn btn-primary">Update</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <app-footer></app-footer>
+  
